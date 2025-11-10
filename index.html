@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APRECORE - Aprende con recursos</title>
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+    <link rel="shortcut icon" href="imagenes/logo/logo-aprecore.png" type="image/x-icon">
+</head>
+<body>
+    <div class="contenedor" id="cont-index">
+        <header class="header-animated">
+            <div class="logoCompleto fade-in-down">
+                <div class="logoSolo">
+                    <a href="index.html"><img src="imagenes/logo/logo-aprecore-blanco.png" alt="logo-texto-aprecore" class="logo-hover"></a>
+                </div>
+                <div class="logoTexto">
+                    <a href="index.html">APRECORE</a>
+                </div>
+            </div>
+            <nav class="nav-animated">
+                <a href="index.html" class="pageNow nav-link">Inicio</a>
+                <a href="cursos.html" class="nav-link">Cursos</a>
+                <a href="nosotros.html" class="nav-link">Nosotros</a>
+                <a href="faq.html" class="nav-link">Preguntas frecuentes</a>
+                <a href="contactanos.html" class="nav-link">Contáctanos</a>
+                <a href="suscripcion.html" class="nav-link">Suscripción</a>
+            </nav>
+        </header>
+        
+        <div class="banner banner-zoom">
+            <img src="imagenes/banner-index.png" alt="" width="100%">
+        </div>
+        
+        <div class="cuerpo" id="cueIndex">
+            <h1 class="title-animated">APRECORE - Aprende con recursos</h1>
+            <h2 class="subtitle-fade">En colaboración con la:</h2>
+            <br>
+            
+            <!-- Figura con el logo de la Universidad Continental -->
+            <figure class="figure-animated fade-in-up">
+                <img src="imagenes/UC horizontally SVG.svg" 
+                     alt="Logotipo de la universidad de continental"
+                     width="400"
+                     class="img-hover-scale">
+                <figcaption class="figcaption-animated">Promoviendo una enseñanza y aprendizaje didáctico (imagen svg).</figcaption>
+            </figure>
+
+            <!-- Imagen responsiva con diferentes fuentes según el tamaño de pantalla -->
+            <picture class="picture-animated fade-in-left">
+                <source media="(min-width: 800px)" 
+                        srcset="https://cdn.kqed.org/wp-content/uploads/sites/23/2025/10/iStock-1481374203-2000x1334.jpg">
+                <img src="https://cdn.kqed.org/wp-content/uploads/sites/23/2025/10/iStock-1481374203-2000x1334.jpg" 
+                     alt="Jovenes estudiando alegremente" 
+                     width="500"
+                     class="img-hover-shadow">
+            </picture>
+
+            <!-- Sección de lenguajes de programación con mapa de imagen -->
+            <div class="lenguajes-section fade-in-right">
+                <h2 class="section-title">Lenguajes de programacion</h2>
+                <!-- Imagen con áreas clicables - SIN modificar tamaño para mantener coordenadas -->
+                <div class="image-map-container">
+                    <img src="imagenes/top-programming-languages.avif" 
+                         alt="Top lenguajes de programacion" 
+                         usemap="#lenguajes-programacion"
+                         class="img-map-hover">
+
+                    <!-- Mapa de imagen con áreas circulares clicables -->
+                    <map name="lenguajes-programacion">
+                        <area shape="circle" coords="89,107,77.0" 
+                              href="https://www.bairesdev.com/blog/top-programming-languages/" 
+                              alt="Lenguaje de programación 1"
+                              class="area-hover">
+                        <area shape="circle" coords="259,110,78.4" 
+                              href="https://www.bairesdev.com/blog/top-programming-languages/" 
+                              alt="Lenguaje de programación 2"
+                              class="area-hover">
+                    </map>
+                </div>
+            </div>
+            
+            <h2 class="section-title slide-in">Últimos cursos publicados</h2>
+            <div class="bloqueCursos">
+                <div class="cursos card-hover fade-in-up" style="animation-delay: 0.1s">
+                    <div class="cursosImg">
+                        <img class="curImg img-zoom" src="imagenes/cursos/Curso-01_Análisis-de-programas-y-búsqueda-de-virus.jpg" alt="Curso-01_Análisis-de-programas-y-búsqueda-de-virus">
+                    </div>
+                    <div class="cursosProp">
+                        <h3 class="curso-title">Curso 01: Análisis de programas y búsqueda de virus</h3>
+                        <p class="profesor">Nate Gentile</p>
+                        <p class="profAcreditado badge-pulse" title="El profesor cuenta con una acreditación internacional">✅Profesor acreditado</p>
+                        <p class="cursoCategoria tag-animated">Seguridad y Mantenimiento de Sistemas</p>
+                        <div class="cursosDesc">
+                            <p>En el Curso de Análisis de Programas y Búsqueda de Virus, aprenderás a identificar amenazas y proteger tu sistema, desarrollando capacidades clave en ciberseguridad.</p>
+                        </div>
+                        <div class="cajaEmpezar"><a href="curso01.html" class="empezar btn-animated">Empezar</a></div>
+                    </div>
+                </div>
+    
+                <div class="cursos card-hover fade-in-up" style="animation-delay: 0.2s">
+                    <div class="cursosImg">
+                        <img class="curImg img-zoom" src="imagenes/cursos/Curso-02_Ensamblaje-de-computadoras.jpg" alt="Curso-02_Ensamblaje-de-computadoras">
+                    </div>
+                    <div class="cursosProp">
+                        <h3 class="curso-title">Curso 02: Ensamblaje de computadoras</h3>
+                        <p class="profesor">Antonio - Sfdx Show</p>
+                        <p class="profAcreditado badge-pulse" title="El profesor cuenta con una acreditación internacional">✅Profesor acreditado</p>
+                        <p class="cursoCategoria tag-animated">Hardware y Ensamblaje</p>
+                        <div class="cursosDesc">
+                            <p>Descubre el arte del ensamblaje en el Curso de Ensamblaje de Computadoras, desarrollando habilidades técnicas esenciales para construir y optimizar equipos.</p>
+                        </div>
+                        <div class="cajaEmpezar"><a href="curso02.html" class="empezar btn-animated">Empezar</a></div>
+                    </div>
+                </div>
+    
+                <div class="cursos card-hover fade-in-up" style="animation-delay: 0.3s">
+                    <div class="cursosImg">
+                        <img class="curImg img-zoom" src="imagenes/cursos/Curso-03_Optimización-de-computadoras.jpg" alt="Curso-03_Optimización-de-computadoras">
+                    </div>
+                    <div class="cursosProp">
+                        <h3 class="curso-title">Curso 03: Optimización de computadoras</h3>
+                        <p class="profesor">Alex LowSpec</p>
+                        <p class="profAcreditado badge-pulse" title="El profesor cuenta con una acreditación internacional">✅Profesor acreditado</p>
+                        <p class="cursoCategoria tag-animated">Optimización y Rendimiento</p>
+                        <div class="cursosDesc">
+                            <p>En el Curso de Optimización de Computadoras, adquiere habilidades para potenciar el rendimiento de tu PC. Aprenderás a optimizar configuraciones, eliminar bloatware y maximizar recursos, desarrollando capacidades esenciales para mantener tu sistema en su mejor forma.</p>
+                        </div>
+                        <div class="cajaEmpezar"><a href="curso03.html" class="empezar btn-animated">Empezar</a></div>
+                    </div>
+                </div>
+            </div>
+            
+            <h2 class="section-title slide-in">Los mejores cursos</h2>
+            <div class="bloqueMejoresCursos">
+                <div id="elMejorCurso" class="cursos card-featured fade-in-scale">
+                    <div class="cursosImg">
+                        <img class="curImg img-zoom" src="imagenes/cursos/Curso-04_Configuraciones-avanzadas-a-un-mouse.jpg" alt="Curso-04_Configuraciones-avanzadas-a-un-mouse">
+                    </div>
+                    <div class="cursosProp">
+                        <h3 class="curso-title">Curso 04: Configuraciones avanzadas a un mouse</h3>
+                        <p class="profesor">Miguel Angel</p>
+                        <p class="profAcreditado badge-pulse" title="El profesor cuenta con una acreditación internacional">✅Profesor acreditado</p>
+                        <p class="cursoCategoria tag-animated">Periféricos y Accesorios</p>
+                        <div id="descMejorCurso">
+                            <p>Este curso sobre configuraciones avanzadas para tu mouse fue simplemente extraordinario. Valorado como el mejor, sorprendió a los participantes al despejar sus dudas y revelar funciones asombrosas. Una experiencia única que transformó por completo la forma en que interactuamos con nuestra computadora.</p>
+                            <p>En el Curso de Configuraciones Avanzadas a un Mouse, desbloquea todo el potencial de tu dispositivo, logrando un control personalizado y mejorando tu productividad.</p>
+                        </div>
+                        <div class="cajaEmpezar"><a href="curso04.html" class="empezar btn-animated">Empezar</a></div>
+                    </div>
+                </div>
+                <div class="bloqueCursos">
+                    <div class="cursos card-hover fade-in-up" style="animation-delay: 0.1s">
+                        <div class="cursosImg">
+                            <img class="curImg img-zoom" src="imagenes/cursos/Curso-05_Instalación-de-drivers-de-pantalla.jpg" alt="Curso-05_Instalación-de-drivers-de-pantalla">
+                        </div>
+                        <div class="cursosProp">
+                            <h3 class="curso-title">Curso 05: Instalación de drivers de pantalla</h3>
+                            <p class="profesor">Antonio - Sfdx Show</p>
+                            <p class="profAcreditado badge-pulse" title="El profesor cuenta con una acreditación internacional">✅Profesor acreditado</p>
+                            <p class="cursoCategoria tag-animated">Reparación de Hardware Específico</p>
+                            <div class="cursosDesc">
+                                <p>Aprende la instalación precisa de drivers de pantalla en el Curso de Instalación de Drivers, desarrollando destrezas para una visualización óptima y rendimiento.</p>
+                            </div>
+                            <div class="cajaEmpezar"><a href="curso05.html" class="empezar btn-animated">Empezar</a></div>
+                        </div>
+                    </div>
+    
+                    <div class="cursos card-hover fade-in-up" style="animation-delay: 0.2s">
+                        <div class="cursosImg">
+                            <img class="curImg img-zoom" src="imagenes/cursos/Curso-06_Reparación-de-tarjetas-gráficas.jpg" alt="Curso-06_Reparación-de-tarjetas-gráficas">
+                        </div>
+                        <div class="cursosProp">
+                            <h3 class="curso-title">Curso 06: Reparación de tarjetas gráficas </h3>
+                            <p class="profesor">Miguel Angel</p>
+                            <p class="profAcreditado badge-pulse" title="El profesor cuenta con una acreditación internacional">✅Profesor acreditado</p>
+                            <p class="cursoCategoria tag-animated">Reparación de Hardware Específico</p>
+                            <div class="cursosDesc">
+                                <p>Conviértete en un experto en la reparación de tarjetas gráficas en el Curso de Reparación de Tarjetas Gráficas, ampliando tus habilidades técnicas y revitalizando equipos.</p>
+                            </div>
+                            <div class="cajaEmpezar"><a href="curso06.html" class="empezar btn-animated">Empezar</a></div>
+                        </div>
+                    </div>
+    
+                    <div class="cursos card-hover fade-in-up" style="animation-delay: 0.3s">
+                        <div class="cursosImg">
+                            <img class="curImg img-zoom" src="imagenes/cursos/Curso-07_DaVinci-Resolve-18.jpg" alt="Curso-07_DaVinci-Resolve-18">
+                        </div>
+                        <div class="cursosProp">
+                            <h3 class="curso-title">Curso 07: DaVinci Resolve 18</h3>
+                            <p class="profesor">Aura Prods</p>
+                            <p class="profAcreditado badge-pulse" title="El profesor cuenta con una acreditación internacional">✅Profesor acreditado</p>
+                            <p class="cursoCategoria tag-animated">Edición de video</p>
+                            <div class="cursosDesc">
+                                <p>Sumérgete en DaVinci Resolve 18 y aprende edición de video profesional en el Curso de DaVinci Resolve, logrando desarrollar capacidades creativas y técnicas en el mundo del cine digital.</p>
+                            </div>
+                            <div class="cajaEmpezar"><a href="curso07.html" class="empezar btn-animated">Empezar</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="datosEstadisticos stats-animated">
+                <div class="datos stat-item fade-in-up" style="animation-delay: 0.1s">
+                    <strong>mas de
+                    <br><span class="tamañoDoble counter-animated">5 000</span>
+                    <br>Alumnos</strong>
+                </div>
+                <div class="datos stat-item fade-in-up" style="animation-delay: 0.2s">
+                    <strong>mas de
+                    <br><span class="tamañoDoble counter-animated">50</span>
+                    <br>Horas de contenido</strong>
+                </div>
+                <div class="datos stat-item fade-in-up" style="animation-delay: 0.3s">
+                    <strong>mas de
+                    <br><span class="tamañoDoble counter-animated">40</span>
+                    <br>Cursos</strong>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer-animated">
+            &copy;Copyright APRECORE 2025
+            <br>
+            Por Miguel Angel Benavente Apaza - Todos los derechos reservados.
+        </footer>
+    </div>
+</body>
+</html>
